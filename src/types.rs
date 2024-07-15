@@ -1222,6 +1222,7 @@ pub struct UserProfile {
     pub real_name: Option<String>,
     pub real_name_normalized: Option<String>,
     pub skype: Option<String>,
+    pub start_date: Option<String>,
     pub status_emoji: Option<String>,
     pub status_text: Option<String>,
     pub team: Option<String>,
